@@ -1,0 +1,70 @@
+body {
+  background-image: url("bgtile.png");
+  margin: 0%;
+  /*background-color: lightskyblue;*/
+}
+
+#recuadro {
+  background: linear-gradient(180deg, rgba(235,241,86,1) 0%, rgba(243,246,206,1) 50%, rgba(238,243,244,1) 100%);
+  border: 5px solid black;
+  width: 40%;
+  height: 719px;
+  position: relative;
+  left: 510px;
+  overflow: auto;
+}
+
+div p{
+  text-align: center;
+  font-weight: bold;
+}
+
+.texto_construccion {
+  font-size: 50px;
+}
+
+.texto_alternativo {
+  font-size: 30px;
+  margin: 0%;
+}
+
+.figura {
+  height: 150px;
+  width: 150px;
+  margin: 25px;
+  background-color: green;
+  border: 5px solid black;
+  border-top-left-radius: 15px 20px;
+  border-bottom-left-radius: 45px 50px;
+  border-top-right-radius: 15px 20px;
+  border-bottom-right-radius: 15px 20px;
+  background-image: url("star.png");
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: relative;
+  top: 50px;
+  left: 90px;
+}
+
+#figura_uno {
+  background-position: center;
+}
+
+#figura_dos {
+  background-position: right bottom;
+}
+
+#figura_tres {
+  background-position: center;
+  background-size: cover;
+}
+
+#figura_cuatro {
+  background-position: center;
+  background-size: contain;
+}
+
+
+
+
+
